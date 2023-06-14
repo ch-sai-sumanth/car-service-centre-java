@@ -75,6 +75,17 @@ Here are a few examples to help you understand how the application works:
         charges for Break Fixing -> 1500
         Total Bill : 7500
 
+## How I developed this project 
+
+Abstract Class: The "Cars" class serves as an abstract base class, defining common properties and behaviors for all types of cars. It encapsulates the shared characteristics and functionality that are inherent to cars in general.
+
+Inheritance: The "Hatchback," "Sedan," and "SUV" classes extend the "Cars" abstract class. By inheriting from the "Cars" class, these subclasses inherit the properties and behaviors defined in the abstract class. In other words, the subclasses inherit the common features of a car while allowing for specific characteristics and behaviors unique to each type.
+
+Polymorphism: Polymorphism is demonstrated through the usage of abstract methods in the "Cars" class. Abstract methods are declared in the abstract class but do not have an implementation. Each subclass (Hatchback, Sedan, SUV) must provide its own implementation of these abstract methods, fulfilling the specific requirements for that type of car. This allows for different behaviors of the same method based on the type of car.
+
+Encapsulation: Encapsulation refers to the bundling of data and methods within a class, hiding the internal details and providing access through well-defined interfaces. In your project, encapsulation is exemplified by the private fields and public getter and setter methods used to access and modify the car-related information, such as car type, service codes, and bill details. This encapsulation ensures data integrity and enables controlled access to the internal state of the car objects.
+
+By employing these OOP concepts, you have created a modular and extensible design for your car service center project. The abstract class and inheritance hierarchy provide a clear structure for managing different car types and their specific behaviors, while encapsulation ensures data security and controlled access to the car-related information.
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
